@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Articulos
-                <a href="{{ route('posts.index') }}" class="btn btn-sm btn-primary float-right">Crear</a>
+                <a href="{{ route('posts.create') }}" class="btn btn-sm btn-primary float-right">Crear</a>
                 </div>
                 <div class="card-body">
                     @if (session('status'))
